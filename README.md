@@ -3,11 +3,10 @@ network-latency-php
 
 A php page that shows network latency from the web server it is hosted on. Customizable ini file for the hostnames you would like to test.
 
-Release: 1.0, Date: 03.21.2013
+Release: 1.1, Date: 03.22.2017
 
 Demo Screenshot
-![Demo screenshot of page](http://alphamusk.com/network-latency-php-demo.jpg)
-
+![Demo screenshot of page](http://www.alphamusk.com/img/demo_network_latency.jpg)
 -------------------------------------------------------------------------------------
  HOW TO ADD HOSTS
 -------------------------------------------------------------------------------------
