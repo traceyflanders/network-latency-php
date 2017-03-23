@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+body { background: #f1f1f1; font-family: Arial;}
+ul li {list-style-type: none; display: inline;}
+th { background: black; color: #f1f1f1;}
+th {font-size: 13px;}
+th,td { border: 1px dotted black; padding: 5px; margin: 0px;}
+td {font-size: 11px;}
+td.red { background: red; text-align: center;}
+td.amber { background: orange; text-align: center;}
+td.green { background: #5BC236; text-align: center;}
+.red { color: black;}
+.amber { color: black;}
+.green { color: white;}
+#logo h1 {font-family: Arial; font-size: 16px;}
+.maintable {}
+#container {}
+#content {}
+#content table {align: left;}
+#botnavbar {}
+#botnavbar a, li {font-size: 11px;}
