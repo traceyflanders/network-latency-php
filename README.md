@@ -11,9 +11,10 @@ Modify the lib/probes.ini file to add hosts. You will need to add the unique [ti
 Then add the remaining fields that are required, in the specified order below.
  
 #### Required fields ####
-- host - The DNS hostname or IP Address of the site.
+- [title] - Name of host, must match host parameter
+- host - The DNS hostname or IP Address of the site
  
-#### Optional (Defaults will be used) ####
+#### Optional fields (Otherwise defaults values will be used) ####
 - port - The TCP port of the site to be probed. (Default: TCP 80)
 - maxlatency - The maxmimum allowed network latency measured in milliseconds. (Default: 200 ms)
 - timeout - The default amount of seconds to wait if host is not reachable or slow to respond. (Default: 2 seconds)
