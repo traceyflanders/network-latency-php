@@ -11,7 +11,7 @@ Modify the lib/probes.ini file to add hosts. You will need to add the unique [ti
 Then add the remaining fields that are required, in the specified order below.
  
 #### Required fields ####
--host - The DNS hostname or IP Address of the site.
+- host - The DNS hostname or IP Address of the site.
  
 #### Optional (Defaults will be used) ####
 - port - The TCP port of the site to be probed. (Default: TCP 80)
@@ -19,24 +19,20 @@ Then add the remaining fields that are required, in the specified order below.
 - timeout - The default amount of seconds to wait if host is not reachable or slow to respond. (Default: 2 seconds)
 
 ### Example of a fully configured host ###
-```[www.example.com]
-host=www.example.com
-port=8888
-maxlatency=150
-timeout=2```
+    [www.example.com]
+    host=www.example.com
+    port=8888
+    maxlatency=150
+    timeout=2
 
 ### Example of a minimally configured host ###
-
-```[www.test.local]
-host=www.test.local```
-
-
+    [www.test.local]
+    host=www.test.local
 
 ### Example of commenting out hosts options ###
 Use semicolons to comment out options, defaults located in defaults.ini take precedence if options are not set.
-
-```[www.google.com]
-host=www.example.com
-port=8888
-;maxlatency=150
-;timeout=2```
+    [www.google.com]
+    host=www.example.com
+    port=8888
+    ;maxlatency=150
+    ;timeout=2
