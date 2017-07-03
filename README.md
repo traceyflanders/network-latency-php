@@ -7,7 +7,7 @@ Release: 1.0, Date: 03.21.2013
 #### Demo Screenshot ####
 ![Demo screenshot of page](http://alphamusk.com/img/demo_network_latency.jpg)
 
-#### HOW TO ADD HOSTS ####
+### HOW TO ADD HOSTS ###
 Modify the lib/probes.ini file.
 In order to add hosts you will need to add the unique [title] field, where title is the name of the host.
 
@@ -22,8 +22,8 @@ Optional (Defaults will be used)
 	timeout - The default amount of seconds to wait if host is not reachable or slow to respond. (Default: 2 seconds)
  
 
-#### Examples: Fully configured host ####
-
+### Examples ###
+#### Fully configured host ####
 [www.example.com]
 host=www.example.com
 port=8888
