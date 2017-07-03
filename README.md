@@ -24,10 +24,10 @@ Optional (Defaults will be used)
 
 ### Example of a fully configured host ###
 ```[www.example.com]
-```host=www.example.com
-```port=8888
-```maxlatency=150
-```timeout=2
+host=www.example.com
+port=8888
+maxlatency=150
+timeout=2```
 
 
 Example: Minimally configure host
