@@ -19,6 +19,7 @@ Then add the remaining fields that are required, in the specified order below.
 - timeout - The default amount of seconds to wait if host is not reachable or slow to respond. (Default: 2 seconds)
 
 ### Example of a fully configured host ###
+
     [www.example.com]
     host=www.example.com
     port=8888
@@ -26,11 +27,13 @@ Then add the remaining fields that are required, in the specified order below.
     timeout=2
 
 ### Example of a minimally configured host ###
+
     [www.test.local]
     host=www.test.local
 
 ### Example of commenting out hosts options ###
 Use semicolons to comment out options, defaults located in defaults.ini take precedence if options are not set.
+
     [www.google.com]
     host=www.example.com
     port=8888
