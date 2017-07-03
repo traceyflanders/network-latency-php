@@ -8,13 +8,10 @@ function setEnvironment($config) {
 	$config = $config;
 	$config = parse_ini_file($config, TRUE);
 	$env = $config['Environment']['debug'];
-	if( $env == 1)
-	{
+	if( $env == 1) {
 		ini_set( "display_errors", "1" );
 		error_reporting( E_ALL & ~E_NOTICE );
-	}
-	else
-	{
+	} else {
 		error_reporting( 0 );
 	}
 }
@@ -27,8 +24,7 @@ function setEnvironment($config) {
  * @return string
  * @example: probePort(www.google.com, 443, 1)
  */
-function probePort($host, $port, $timeout)
-{
+function probePort($host, $port, $timeout) {
 	$timeBefore = microtime(true);
 	$hostSocket = fSockOpen($host, $port, $errno, $errstr, $timeout);
 
@@ -199,6 +195,5 @@ function getVersion($config) {
 	$defaults = parse_ini_file($config, TRUE);
 	return $defaults['Page']['version'];
 }
-
 
 ?>
