@@ -24,11 +24,13 @@ Optional (Defaults will be used)
 
 ### Example of a fully configured host ###
 <pre>
+<code>
 [www.example.com]
 host=www.example.com
 port=8888
 maxlatency=150
 timeout=2
+</code>
 </pre>
 
 Example: Minimally configure host
