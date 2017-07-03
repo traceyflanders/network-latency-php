@@ -16,7 +16,7 @@
 	  	<div id="botnavbar">
   			<ul>
   				<li><?php echo $Version;?></li>
-  				<li>&nbsp</li>
+  				<li>&nbsp;</li>
 		  		<li><a href="README.md">Readme</a></li>
 		  		<li> | </li>
 		  		<li><a href="mailto:<?php echo $Email;?>">Contact</a></li>
