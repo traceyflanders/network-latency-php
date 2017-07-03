@@ -27,7 +27,7 @@ Optional (Defaults will be used)
 host=www.example.com
 port=8888
 maxlatency=150
-timeout=2```
+timeout=2
 
 
 Example: Minimally configure host
