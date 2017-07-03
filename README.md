@@ -22,14 +22,14 @@ Optional (Defaults will be used)
 	timeout - The default amount of seconds to wait if host is not reachable or slow to respond. (Default: 2 seconds)
  
 
-### Examples ###
-#### Fully configured host ####
+### Example of a fully configured host ###
+<pre>
 [www.example.com]
 host=www.example.com
 port=8888
 maxlatency=150
 timeout=2
-
+</pre>
 
 Example: Minimally configure host
 
