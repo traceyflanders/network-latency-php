@@ -11,4 +11,5 @@ config KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-displayResults KEYWORD2
+displayResults    KEYWORD2
+probePort     KEYWORD2
