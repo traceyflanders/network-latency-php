@@ -3,7 +3,7 @@
 A php page that shows network latency from the web server it is hosted on. Customizable ini file for the hostnames you would like to test.
 
 #### Demo Screenshot ####
-![Demo screenshot of page](http://alphamusk.com/img/demo_network_latency.jpg)
+![Demo screenshot of page](demo.jpg)
 
 ## How to add hosts to probe ##
 Modify the lib/probes.ini file to add hosts. You will need to add the unique [title] field, where title is the name of the host.
