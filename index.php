@@ -20,6 +20,8 @@
 		  		<li><a href="README.md">Readme</a></li>
 		  		<li> | </li>
 		  		<li><a href="mailto:<?php echo $Email;?>">Contact</a></li>
+		  		<li> | </li>
+				<li><a href="https:\/\/github.com/traceyflanders/network-latency-php" target="_blank">Source Code</a></li>
 	  		</ul>
 	  	</div>
   	</div>
